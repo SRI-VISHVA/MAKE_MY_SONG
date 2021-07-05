@@ -1,0 +1,16 @@
+owner,id,name,artists,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,ratings
+User,4eQj5uut6iCotVqkUp4WnW,Back to You (feat. Bebe Rexha & Digital Farm Animals),Louis Tomlinson,0.679,0.517,0,-4.966,0,0.134,0.211,0,0.459,0.64,149.915,190428,4,10
+User,4hQ6UGyWQIGJmHSo0J88JW,Back To You - From 13 Reasons Why – Season 2 Soundtrack,Selena Gomez,0.601,0.724,6,-4.856,1,0.0486,0.0945,0.00000168,0.12,0.508,102.061,207905,4,10
+User,3eR23VReFzcdmS7TYCrhCe,It Ain't Me (with Selena Gomez),Kygo,0.64,0.533,0,-6.596,1,0.0706,0.119,0,0.0864,0.515,99.968,220781,4,9
+User,216afVgCJWieLyqPDwziwq,Back To You - Joey Pecoraro Remix,Selena Gomez,0.685,0.658,6,-7.548,1,0.0326,0.365,0.133,0.333,0.529,102.028,226644,4,8
+User,7HfWBxFDZfqWzSsiWIlQSs,Sunday Morning,Maroon 5,0.443,0.772,0,-5.066,1,0.067,0.0851,0,0.0566,0.794,87.825,243080,4,7
+User,0tBbt8CrmxbjRP0pueQkyU,Wolves,Selena Gomez,0.724,0.804,11,-4.614,0,0.0448,0.124,0,0.204,0.306,124.987,197993,4,6
+User,6KfoDhO4XUWSbnyKjNp9c4,Maniac,Conan Gray,0.628,0.639,8,-5.46,1,0.0435,0.00162,0,0.354,0.493,108.045,185773,4,5
+User,4hQ6UGyWQIGJmHSo0J88JW,Back To You - From 13 Reasons Why – Season 2 Soundtrack,Selena Gomez,0.601,0.724,6,-4.856,1,0.0486,0.0945,0.00000168,0.12,0.508,102.061,207905,4,4
+User,7HfWBxFDZfqWzSsiWIlQSs,Sunday Morning,Maroon 5,0.443,0.772,0,-5.066,1,0.067,0.0851,0,0.0566,0.794,87.825,243080,4,3
+User,0tBbt8CrmxbjRP0pueQkyU,Wolves,Selena Gomez,0.724,0.804,11,-4.614,0,0.0448,0.124,0,0.204,0.306,124.987,197993,4,2
+User,216afVgCJWieLyqPDwziwq,Back To You - Joey Pecoraro Remix,Selena Gomez,0.685,0.658,6,-7.548,1,0.0326,0.365,0.133,0.333,0.529,102.028,226644,4,1
+User,3eR23VReFzcdmS7TYCrhCe,It Ain't Me (with Selena Gomez),Kygo,0.64,0.533,0,-6.596,1,0.0706,0.119,0,0.0864,0.515,99.968,220781,4,0
+User,7hLm8XB8rjh3LgICVk2I1S,Back to You,Rahul Rid,0.537,0.871,7,-7.048,1,0.0302,0.37,0.798,0.117,0.139,127.994,237193,4,-1
+User,6KfoDhO4XUWSbnyKjNp9c4,Maniac,Conan Gray,0.628,0.639,8,-5.46,1,0.0435,0.00162,0,0.354,0.493,108.045,185773,4,-2
+User,4eQj5uut6iCotVqkUp4WnW,Back to You (feat. Bebe Rexha & Digital Farm Animals),Louis Tomlinson,0.679,0.517,0,-4.966,0,0.134,0.211,0,0.459,0.64,149.915,190428,4,-3

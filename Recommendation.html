@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Song - A Recommendation Phase</title>
+    <link rel="stylesheet" href="https://nico-amsterdam.github.io/awesomplete-util/css/awesomplete.css">
+	<link rel="stylesheet" href="sandbox/searchbar/styles.css">
+	<script src="https://nico-amsterdam.github.io/awesomplete-util/js/awesomplete.min.js"></script>
+      <script src="https://nico-amsterdam.github.io/awesomplete-util/js/awesomplete-util.min.js"></script>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="https://use.typekit.net/zry1rcu.css">
+		<link rel="stylesheet" href="https://nico-amsterdam.github.io/awesomplete-util/css/awesomplete.css">
+        <link rel="stylesheet" href="css/grids.css" />
+        <link rel="stylesheet" href="css/histograms.css" />
+        <link rel="stylesheet" href="css/radialplot.css" />
+        <link rel="stylesheet" href="css/starplot.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/zry1rcu.css">
+		<link rel="stylesheet" href="https://nico-amsterdam.github.io/awesomplete-util/css/awesomplete.css">
+        <link rel="stylesheet" href="css/grids.css" />
+        <link rel="stylesheet" href="css/histograms.css" />
+        <link rel="stylesheet" href="css/radialplot.css" />
+        <link rel="stylesheet" href="css/starplot.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+		<meta property="og:title" content="VINYL" />
+		<meta property="og:description" content="Comparing Music Artists through Visualization">
+        <meta name="twitter:card" content="summary_large_image">
+        
+<style>
+    .left{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    .right{
+        float: right;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+</style>
+</head>
+<body style="overflow: visible !important">
+    <div class="container-column" style="margin:auto;">
+        <div class="cell panel dont-reset-selection" id="options-panel">
+            <div class="mb-xs">
+                <div class="margin-gutter">
+                    <div class="mb-xxs">
+                        <small>Find a song</small>
+                    </div>
+                    <input type="text" id="inp" class="btn vis-control" style="width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit"  onclick="searchSong()" style="margin-left: 40%; width: 200px; margin-top: 20px;">Search</button>
+                    <!-- <input class="form-control btn vis-control" id="search_artist" name="search[artist]" type="text" style="width: 100%;"/> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left">
+       <div id = "songs"></div>
+    </div>
+    <div class="left">
+        <div id = "playlist"></div>
+    </div>
+    <div style="text-align: center;">
+        <button type="submit" onclick="CreatePlaylist()" style="width: 200px; margin-top: 20px;">Create Playlist</button>
+    </div>
+    <div class="right">
+        <div style="margin: 20px;">Recommended Songs</div>
+        <input type="file" name="inputfile" id="inputfile" style="margin-left: 7%;">
+        <div id="recomSongs"><br><br></div>
+        <!-- <button type="submit" onclick="GetSongs()" style="margin-left: 15%; width: 200px; margin-top: 20px;">Recommendations</button> -->
+    </div>
+    <script src="fetch.js"></script>
+</body>
+</html>

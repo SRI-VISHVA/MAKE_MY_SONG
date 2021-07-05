@@ -1,0 +1,1 @@
+curl -X "POST" -H "Authorization: Basic N2I0OWI1MjMzNGJiNDM1ODg1ZTkwOWQ5MmE3YmEwOWI6Yzg0N2U0YTM0MTA2NGExY2FlZjE4ZWNhYjVjY2IwMmY=" -d grant_type=client_credentials https://accounts.spotify.com/api/token
